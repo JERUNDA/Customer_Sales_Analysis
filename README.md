@@ -1,18 +1,21 @@
 # Customer Sales Analysis
 
-This project analyzes sales data to understand customer purchasing behavior, product category revenue, and sales trends.
-
-## Contents
-
-- Python code for data processing and visualization (`eda_analysis.ipynb`)  
-- SQL queries for extracting sales metrics (`Selection_of_recent_orders_and_purchase_frequency.sql`, 'Total_revenue_by_client_and_by_time.sql', 'Window_function_for_customer_ranking.sql')  
-- Presentation PDF summarizing findings and Power BI dashboard (`Customer_Sales_Analysis.pdf`, 'Sales_Performance_Dashboard.pbix')  
+## Project Objectives
+This project aims to analyze sales data to understand customer purchasing behavior, product category revenue, and sales trends. The insights support informed business decisions in marketing, inventory management, and customer engagement.
 
 ## Dataset
+The main dataset is `sales_data_sample.csv`, which contains information about orders, customers, products, and sales amounts. The file is located in the `data` folder.
 
-The dataset used is `sales_data_sample.csv` (can be found in the `data` folder).
+## Key Analysis Steps
+- Data preprocessing and cleaning using Python (Jupyter Notebook `eda_analysis.ipynb`).  
+- Analytical SQL queries to calculate key metrics such as purchase frequency, total revenue by client and time, and customer ranking.  
+- Visualization of results in Python and creation of an interactive dashboard using Power BI.  
+- Preparation of a presentation summarizing findings and recommendations (`Customer_Sales_Analysis.pdf`).
 
-## How to run
+## Presentation Summary
+The presentation highlights the main analysis results, including identified patterns, customer segments, and recommendations for sales optimization. Viewing the slides is recommended for deeper insights.
 
-- Run the Python script/notebook to reproduce the analysis and graphs.  
-- Use the SQL files to execute queries in your PostgreSQL database.
+## How to Run the Code
+1. Clone the repository:  
+   bash
+   git clone https://github.com/JERUNDA/Customer_Sales_Analysis.git
