@@ -21,10 +21,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/JERUNDA/Customer_Sales_Analysis.git
 ```
-Install dependencies: 
+
+(Optional) Install necessary Python libraries:
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib seaborn
 ```
+
 Run the Python script:
 ```bash
 python eda_analysis.py
