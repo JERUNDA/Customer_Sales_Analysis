@@ -307,5 +307,3 @@ plt.figure(figsize=(10, 8))
 plt.pie(country_sales, labels=country_sales.index, autopct='%.1f%%')
 plt.title('Sales share by country')
 plt.show()
-
-
