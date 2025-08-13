@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Reading CSV with code encoding
-df = pd.read_csv(r'sales_data_sample.csv', sep=',', encoding='cp1251')
+df = pd.read_csv(r'C:\sales_data_sample.csv', sep=',', encoding='cp1251')
 
 # View first lines
 print(df.head())
@@ -307,4 +307,5 @@ plt.figure(figsize=(10, 8))
 plt.pie(country_sales, labels=country_sales.index, autopct='%.1f%%')
 plt.title('Sales share by country')
 plt.show()
+
 
